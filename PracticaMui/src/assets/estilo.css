@@ -1,0 +1,19 @@
+body{
+    background-image: url("../assets/escuela.jpg");
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Container1{
+    margin: 200px 0px 0px;
+}
+
+.Contenedor{
+    background: rgb(49,163,224);
+background: linear-gradient(90deg, rgba(49,163,224,1) 13%, rgba(245,248,250,1) 95%);
+}
+
+.LogOutText{
+    color:black;
+
+}
