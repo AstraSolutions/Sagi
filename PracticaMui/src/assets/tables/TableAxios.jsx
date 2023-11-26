@@ -3,7 +3,7 @@ import axios from 'axios'
 import {useState,useEffect} from 'react'
 import '../estilo.css'
 import React from "react"
-import { useNavigate } from "react-router-dom"
+
 
 
 export const TableAxios = () =>{
@@ -23,7 +23,6 @@ export const TableAxios = () =>{
     }).then((res)=> {
     const data = res.data.data.rows
     setProducts(data);
-;
 }
 );
         

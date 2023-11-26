@@ -7,6 +7,8 @@ import Header1 from "./assets/Header"
 import Auth from "./Auth"
 import { useState } from "react"
 import Create from "./Create"
+import TableCrud from "./assets/tables/TableCrud"
+
 
 
 
@@ -46,6 +48,13 @@ function App() {
           <Create/>
         </React.Fragment>
       }/>
+      <Route path="/crud" element={
+        <React.Fragment>
+          <Header2/>
+          <TableCrud/>
+        </React.Fragment>
+      }/>
+      
     </Routes>
       
     </>
